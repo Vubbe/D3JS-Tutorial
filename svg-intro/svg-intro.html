@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="svg-intro-style.css">
+    <title>Shapes with SVG and CSS</title>
+</head>
+<body>
+    <!-- SVG Elements have there own Elements, circle, rect, g(groups), lines and paths(line groups) -->
+    <svg width="960" height="500">
+        <circle cx="50" cy='50' r="40"></circle>
+        <rect x="100" y="25" width="50" height="50"></rect>
+        <circle cx="50" cy='150' r="40" fill="red"></circle>
+        <rect x="100" y="125" width="50" height="50" fill="#832acb"></rect>
+        <g transform="translate(0, 200)" fill="green" stroke="black">
+            <circle cx="50" cy='50' r="40" stroke-width="5"></circle>
+            <rect x="100" y="25" width="50" height="50"></rect> 
+        </g>
+
+        <g class="lines">
+            <line x1="200" y1="20" x2="300" y2="280"></line>
+            <path fill="none" d="M300 280 L350 200 L400 250 L450 180"></path>
+        </g>
+        
+    </svg>
+</body>
+</html>

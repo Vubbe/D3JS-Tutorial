@@ -1,0 +1,14 @@
+This is the Data Visualization with D3.js - Full Tutorial Course
+link: https://www.youtube.com/watch?v=_8V5o2UHG0E&ab_channel=freeCodeCamp.org
+
+The first few chapters were skipped since I already knew the basics of HTML/CSS and JavaScript
+
+Order:
+Svg Intro
+D3 Intro
+Bar Chart
+Custom Axes
+Scatter Plot
+
+Comments:
+For advice on colors, tip to consult The Sunlight Foundation's Data Visualization Style Guidelines
